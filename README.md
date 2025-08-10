@@ -1,4 +1,4 @@
-# ☠️ Assembly Death Predictor
+# ☠️ Assembly Death Predictor(Game)
 
 A quirky, fun program written entirely in Assembly language that predicts your "death" based on some inputs — just for entertainment and learning low-level programming!
 
