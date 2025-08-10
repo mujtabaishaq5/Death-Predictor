@@ -19,7 +19,7 @@ If you love Assembly language or want to see how something silly can be done at 
 
 ## ⚙️ Features
 
-- Runs directly on x86 (specify architecture 64-bit
+- Runs directly on x86 specify architecture 64-bit
 - Takes user input to generate a "death prediction"
 - Uses Assembly instructions for all calculations
 - Minimal dependencies, runs in terminal/console
