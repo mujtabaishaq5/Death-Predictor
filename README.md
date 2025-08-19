@@ -53,7 +53,7 @@ _start:
    jmp .print
 
    ; exit program
-   mov rax, 0x2000003
+   mov rax, 0x2000001
    xor rdi, rdi
    syscall
 
@@ -107,7 +107,7 @@ _start:
    syscall
 
 
-   mov rax, 0x2000003
+   mov rax, 0x2000001
    xor rdi, rdi
    syscall
 
@@ -118,7 +118,7 @@ _start:
    syscall
 
 ; Print for linux
-   mov rax, 1        ; write(
+   mov rax, 4        ; write(
    mov rdi, 1        ;   STDOUT_FILENO,
    mov rsi, msg      ;   "Hello, world!\n",
    mov rdx, msglen   ;   sizeof("Hello, world!\n")
